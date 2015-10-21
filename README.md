@@ -1,2 +1,3 @@
 # [MTA] Air strike
-a air strike system for MTA:SA
+- air strike system for MTA:SA
+- youtube video : https://youtu.be/_xOl-Ux-b0c
