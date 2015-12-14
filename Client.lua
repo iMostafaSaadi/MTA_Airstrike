@@ -412,7 +412,7 @@ function ( button )
 		elseif source == Main["AirStrikeControl"]["button"][2] then
 			Main["AirStrikeControl"]["window"][1]:setVisible(false);
 			showCursor(false);
-			triggerServerEvent("AirStrike:onGUIClose", localPlayer, localPlayer);
+			triggerServerEvent("AirStrike:onGUIClose", localPlayer, localPlayer)
 		elseif source == Main["AirStrikeControl"]["gridlist"][1] then
 			if Main["AirStrikeControl"]["gridlist"][1]:getSelectedItem() ~= -1 then
 				local Type = Main["AirStrikeControl"]["gridlist"][1]:getItemText(Main["AirStrikeControl"]["gridlist"][1]:getSelectedItem(), 1);
