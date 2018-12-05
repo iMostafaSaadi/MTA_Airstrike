@@ -43,7 +43,7 @@ Main = {
 		object1 = nil,
 		object2 = nil,
 	},
-	Zooming = 0,
+	Zooming = 1,
 };
 
 function dxDrawFramedText(message, left, top, width, height, color, scale, font, alignX, alignY, clip, wordBreak, postGUI, frameColor)
